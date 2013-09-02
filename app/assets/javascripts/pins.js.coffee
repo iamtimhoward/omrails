@@ -3,5 +3,5 @@
 # You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/
 
 jQeury -> 
-	$( '#pins').imagesLoaded ->
+	$('#pins').imagesLoaded ->
 		$('#pins').masonry itemSelector: ".box"
